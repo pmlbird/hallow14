@@ -8,10 +8,7 @@ int oneB = 6; //BLUE pin in output 6
 int twoR = 9; //RED pin in output 3
 int twoG = 10; //GREEN pin in output 4
 int twoB = 11; //BLUE pin in output 5
-//LED 3
-//int thrR = 6; //RED pin in output 6
-//int thrG = 7; //GREEN pin in output 7
-//int thrB = 8; //BLUE pin in output 8
+
 // Values for dimming ability
 //LED 1
 int VAL0; //RED pin
@@ -21,10 +18,7 @@ int VAL2; //BLUE pin
 int VAL3; //RED pin
 int VAL4; //GREEN pin
 int VAL5; //BLUE pin
-//LED3
-//int VAL6; //RED pin
-//int VAL7; //GREEN pin
-//int VAL8; //BLUE pin
+
 
 void setup()
 {
@@ -35,9 +29,7 @@ VAL2 = 255;
 VAL3 = 255;
 VAL4 = 255;
 VAL5 = 255;
-//VAL6 = 255;
-//VAL7 = 255;
-//VAL8 = 255;
+
 update(); //Updates the LED Outputs
 }
 
@@ -50,9 +42,7 @@ void update()
   analogWrite(twoR, VAL3);
   analogWrite(twoG, VAL4);
   analogWrite(twoB, VAL5);
-  //analogWrite(thrR, VAL6);
-  //analogWrite(thrG, VAL7);
-  //analogWrite(thrB, VAL8);
+  
 }
 
 // This function updates one of the color variables
