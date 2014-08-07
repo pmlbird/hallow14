@@ -66,25 +66,25 @@ void loop() {
  //LED1
   color_morph(&VAL0, 1); // transition to red // LED1 //turn on RED
   color_morph(&VAL5, 1); // transition to BLUE // LED2 //turn on BLUE
-
+//
   color_morph(&VAL1, 1); // transition to yellow// LED1 //turn on GREEN
   color_morph(&VAL4, 1); // transition to AQUA// LED2 //turn on GREEN
-  
+//  
   color_morph(&VAL0, 0); // transition to green //LED1 //turn off RED
   color_morph(&VAL3, 1); // transition to WHITE //LED2 //turn on RED
-
+//
   color_morph(&VAL2, 1); // transition to aqua // LED1 // turn on BLUE
   color_morph(&VAL4, 1); // transition to VIOLET // LED2 // turn on RED
-
+//
   color_morph(&VAL0, 1); // transition to white //LED1 //turn on RED
   color_morph(&VAL5, 0); // transition to RED //LED2 //turn off BLUE
-
+//
   color_morph(&VAL1, 0); // transition to violet //LED1 //turn off GREEN
   color_morph(&VAL4, 1); // transition to YELLOW //LED2 //turn on GREEN
-
+//
   color_morph(&VAL0, 0); // transition to blue //LED1 // turn off RED
   color_morph(&VAL3, 0); // transition to GREEN //LED2 // turn off RED
- 
+ //
   //color_morph(&VAL2, 0); // transition to black (all off)// LED1 //turn off BLUE
   //color_morph(&VAL5, 0); // transition to black (all off)// LED2 //turn off BLUE
 
