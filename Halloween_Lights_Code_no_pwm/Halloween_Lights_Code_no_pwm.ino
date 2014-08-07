@@ -17,6 +17,8 @@ pinMode (blu2, OUTPUT);
 }
 
 void loop() {
+  digitalWrite(blu1, LOW); //shutdown blue on LED 1
+  digitalWrite(gre2, LOW); //shutdown green on LED 2
   digitalWrite(red1, HIGH);
   digitalWrite(blu2, HIGH);
   delay (1000);
