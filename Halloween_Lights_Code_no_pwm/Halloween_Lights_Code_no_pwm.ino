@@ -3,9 +3,13 @@ int red1 = 2;
 int gre1 = 3;
 int blu1 = 4;
 //LED2
-int red2 = 9;
-int gre2 = 10;
-int blu2 = 11;
+int red2 = 5;
+int gre2 = 6;
+int blu2 = 7;
+//LED3
+int red3 = 8;
+int gre3 = 9:
+int blu3 = 10; 
 void setup() {
   // Declaring the LEDs, as outputs
 pinMode (red1, OUTPUT);
@@ -14,30 +18,43 @@ pinMode (blu1, OUTPUT);
 pinMode (red2, OUTPUT);
 pinMode (gre2, OUTPUT);
 pinMode (blu2, OUTPUT);
+pinMode (red3, OUTPUT);
+pinMode (gre3, OUTPUT);
+pinMode (blu3, OUTPUT);
 }
 
 void loop() {
   digitalWrite(blu1, LOW); //shutdown blue on LED 1
   digitalWrite(gre2, LOW); //shutdown green on LED 2
+  digitalWrite(blu3, LOW);
+  //
   digitalWrite(red1, HIGH);//LED1 Color:RED
   digitalWrite(blu2, HIGH);//LED2 Color:Blue
+  digitalWrite(gre3, HIGH);//LED3 Color:Green
   delay (1000);
-  digitalWrite(gre1, HIGH);//LED1 Color:AQUA
-  digitalWrite(gre2, HIGH);//LED2 Color:   
+  digitalWrite(blu1, HIGH);//LED1 Color:Violet
+  digitalWrite(gre2, HIGH);//LED2 Color:Aqua
+  digitalWrite(red3, HIGH);//Orange
   delay (1000);
-  digitalWrite(red1, LOW);
-  digitalWrite(red2, HIGH);
+  digitalWrite(red1, LOW);//LED1 Color:Blue
+  digitalWrite(red2, HIGH);//LED2 Color:Whiteish
+  digitalWrite(gre3, LOW);//Red
   delay (1000);
-  digitalWrite(blu1, HIGH);
-  digitalWrite(gre2, LOW);
+  digitalWrite(gre1, HIGH);//LED1 Color:Aqua
+  digitalWrite(gre2, LOW);//LED2 Color:red
+  digitalWrite(blu3, HIGH);//violet
   delay (1000);
-  digitalWrite(red1, HIGH);
-  digitalWrite(blu2, LOW);
+  digitalWrite(red1, HIGH);//LED1 Color:Whiteish
+  digitalWrite(blu2, HIGH);//LED2 Color:Violet
+  digitalWrite(gre3, HIGH);//aqua
   delay (1000);
-  digitalWrite(gre1, LOW);
-  digitalWrite(gre2, HIGH);
+  digitalWrite(blu1, LOW);//LED1 Color:orange
+  digitalWrite(gre2, LOW);//LED2 Color:blue
+  digitalWrite(red3, HIGH);//whiteish
   delay (1000);
-  digitalWrite(red1, LOW);
-  digitalWrite(red2, LOW);
+  digitalWrite(red1, LOW);//LED1 Color:Green 
+  digitalWrite(red2, LOW);//LED2 Color:blue
+  digitalWrite(red3, LOW);//aqua
+  digitalWrite(gre3, LOW);blue
   delay (1000);
 }
