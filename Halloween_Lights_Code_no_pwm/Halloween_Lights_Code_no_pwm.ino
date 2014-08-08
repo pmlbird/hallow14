@@ -8,7 +8,7 @@ int gre2 = 6;
 int blu2 = 7;
 //LED3
 int red3 = 8;
-int gre3 = 9:
+int gre3 = 9;
 int blu3 = 10; 
 void setup() {
   // Declaring the LEDs, as outputs
