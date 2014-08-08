@@ -19,11 +19,11 @@ pinMode (blu2, OUTPUT);
 void loop() {
   digitalWrite(blu1, LOW); //shutdown blue on LED 1
   digitalWrite(gre2, LOW); //shutdown green on LED 2
-  digitalWrite(red1, HIGH);
-  digitalWrite(blu2, HIGH);
+  digitalWrite(red1, HIGH);//LED1 Color:RED
+  digitalWrite(blu2, HIGH);//LED2 Color:Blue
   delay (1000);
-  digitalWrite(gre1, HIGH);
-  digitalWrite(gre2, HIGH);
+  digitalWrite(gre1, HIGH);//LED1 Color:AQUA
+  digitalWrite(gre2, HIGH);//LED2 Color:   
   delay (1000);
   digitalWrite(red1, LOW);
   digitalWrite(red2, HIGH);
