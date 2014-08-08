@@ -24,9 +24,9 @@ pinMode (blu3, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(blu1, LOW); //shutdown blue on LED 1
-  digitalWrite(gre2, LOW); //shutdown green on LED 2
-  digitalWrite(blu3, LOW);
+  digitalWrite(gre1, LOW); //shutdown green on LED 1
+  digitalWrite(blu2, LOW); //shutdown blue on LED 2
+  digitalWrite(blu3, LOW); //shutdown blue on LED 3
   //
   digitalWrite(red1, HIGH);//LED1 Color:RED
   digitalWrite(blu2, HIGH);//LED2 Color:Blue
@@ -34,27 +34,27 @@ void loop() {
   delay (1000);
   digitalWrite(blu1, HIGH);//LED1 Color:Violet
   digitalWrite(gre2, HIGH);//LED2 Color:Aqua
-  digitalWrite(red3, HIGH);//Orange
+  digitalWrite(red3, HIGH);//LED3 Color:Orange
   delay (1000);
   digitalWrite(red1, LOW);//LED1 Color:Blue
   digitalWrite(red2, HIGH);//LED2 Color:Whiteish
-  digitalWrite(gre3, LOW);//Red
+  digitalWrite(gre3, LOW);//LED3 Color:Red
   delay (1000);
   digitalWrite(gre1, HIGH);//LED1 Color:Aqua
   digitalWrite(gre2, LOW);//LED2 Color:red
-  digitalWrite(blu3, HIGH);//violet
+  digitalWrite(blu3, HIGH);//LED3 Color:violet
   delay (1000);
   digitalWrite(red1, HIGH);//LED1 Color:Whiteish
   digitalWrite(blu2, HIGH);//LED2 Color:Violet
-  digitalWrite(gre3, HIGH);//aqua
+  digitalWrite(gre3, HIGH);//LED3 Color:aqua
   delay (1000);
   digitalWrite(blu1, LOW);//LED1 Color:orange
   digitalWrite(gre2, LOW);//LED2 Color:blue
-  digitalWrite(red3, HIGH);//whiteish
+  digitalWrite(red3, HIGH);//LED3 Color:whiteish
   delay (1000);
   digitalWrite(red1, LOW);//LED1 Color:Green 
   digitalWrite(red2, LOW);//LED2 Color:blue
-  digitalWrite(red3, LOW);//aqua
-  digitalWrite(gre3, LOW);blue
+  digitalWrite(red3, LOW);//LED3 Color:aqua /in prepartation to changing it to blue
+  digitalWrite(gre3, LOW);//LED3 Color:blue
   delay (1000);
 }
